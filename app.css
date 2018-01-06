@@ -1,0 +1,89 @@
+body{
+	text-align: center;
+	background-image: url(8-bit-background-1.jpg);
+	color:white;
+}
+
+#title {
+	font-size: 55px;
+	margin: 0.5em; 
+	font-family: '8BITWONDERNominal'; 
+ 	font-weight: normal; 
+	font-style: normal; 
+}
+
+.gridForm {
+	font-size: 14px;
+	text-align: center;
+	font-family: '8BITWONDERNominal'; 
+ 	font-weight: normal; 
+	font-style: normal; 
+}
+
+.colorPicker {
+	font-family: '8BITWONDERNominal'; 
+ 	font-weight: normal; 
+	font-style: normal; 	text-align: center;
+	font-size: 14px;
+	margin: 9px;
+}
+
+.designCanvas {
+	font-family: '8BITWONDERNominal'; 
+ 	font-weight: normal; 
+	font-style: normal; 	
+	text-align: center;
+	font-size: 14px;
+
+}
+
+td,tr {
+	border: 1px solid black;
+
+}
+
+td{	
+	width: 20px;
+
+}
+
+tr {	
+	height: 20px;
+
+}
+
+input[type=number] {
+	width: 43px;
+}
+
+table {
+	border-collapse: collapse;
+	margin: 0 auto;
+	border:2px solid black;
+	background-color: white;
+
+}
+#submitButton {
+	border: 5px solid #fffffffa;
+    border-radius: 34px;
+    background-color: navy;
+    font-size: 16px;
+    color: white;
+    font-weight: bolder;
+
+}
+#gridHeight, #gridWidth{
+	width: 43px;
+    border-radius: 10px;
+    border: solid 5px white;
+    background-color: navy;
+    color: white;
+    font-weight: bolder;
+    font-size: 17px;
+    text-align: center;
+}
+#colorCanvas{
+    border-radius: 11px;
+    border: solid white;
+    background-color: white;
+}

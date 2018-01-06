@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<meta charset="utf-8">
+	<title>Pixel Art Maker!</title>
+	<link rel="stylesheet" href="app.css">
+	<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+	<link rel="stylesheet" media="screen" href="https://fontlibrary.org/face/8bit-wonder" type="text/css"/>
+</head>
+
+<body>
+
+	<p id='title'> PIXEL ART MAKER </p>
+	
+	<form class='gridForm' >
+		Grid Height: 
+		<input type="number" id="gridHeight" value='10'>
+		Grid Width: 
+		<input type="number" id="gridWidth" value='10'>
+		<input id='submitButton' type="submit">	
+	</form>
+
+	<div class='colorPicker'>Pick a color 
+		<input type='color' id='colorCanvas' value='#000080'>
+	</div>
+
+	<p class='designCanvas'>Design Canvas</p>
+	<table id='pixels'>
+		<tbody>
+			<tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+			<tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+			<tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+			<tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+			<tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+			<tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+			<tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+			<tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+			<tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+			<tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+	    </tbody>	
+	</table>
+			
+	<script src="app.js" type="text/javascript" charset="utf-8"></script>
+</body>
+</html>
