@@ -1,3 +1,5 @@
+"use strict";
+
 function makeGrid() {
 	$('.gridForm').submit(function(e) {
 		e.preventDefault();
